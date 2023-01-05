@@ -40,18 +40,18 @@ else:
     quit()
 
 if time == "death":
-    house = input("You made it across the Woes of Man and as a reward the King wants to give you a house? Which house do you pick? The 'Candy', 'Rock' or 'Gold' house?  ").lower()
+    house = input("You made it across the Woes of Man and as a reward the King wants to give you a house? Which house do you pick? The 'Candy', 'Rock' or 'Gold' house? ").lower()
 else:
     print("Your boat capsized. Sorry :(")
     quit()
 
-if house == "Candy":
+if house == "candy":
     print("There was a pot of treasure underneath the Marshmellow Trees. You Win! :D")
-elif house == "Sandy":
+elif house == "rock":
     print("The House was filled with dust, you died of Asthma. You lose :(")
     quit()
-elif house == "Gold":
-    print
+elif house == "gold":
+    print("Your house rusted, you got tetanus and died. You lose :(")
     quit()
 else:
-    print("The King finds you ungrateful, he stones you to death.")
+    print("The King finds you ungrateful, he stones you to death. You lose :(")
